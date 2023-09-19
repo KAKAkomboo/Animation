@@ -1,0 +1,36 @@
+.trava {
+    width: 5000px;
+    height: 15px;
+    background-color: darkgreen;
+    margin-top: 250px ;
+    margin: 0;
+}
+
+.square1 {
+    background-color: blueviolet;
+    margin-left: 800px;
+    margin-top: 250px;
+    animation: an1 3s infinite linear;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@keyframes an1 {
+    0% {margin-left: 800px;}
+    100% {margin-left: 90px;}
+}
+
+.square2 {
+    background-color: blueviolet;
+    margin-left: 820px;
+    margin-top: 200px;
+    animation: an2 3s infinite linear;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@keyframes an2 {
+    0% {margin-left: 820px;}
+    100% {margin-left: 90px;}
+}
